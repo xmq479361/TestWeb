@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.administrator.demo.view.NonLockingScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/activity_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="#dfdfaa"
+            android:layout_height="200dp" />
+
+        <com.example.administrator.demo.view.CustomWebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdgeLength="0dip"
+            android:scrollbars="horizontal"
+            android:scrollingCache="false"
+            android:textColor="#666666">
+
+        </com.example.administrator.demo.view.CustomWebView>
+    </LinearLayout>
+</com.example.administrator.demo.view.NonLockingScrollView>

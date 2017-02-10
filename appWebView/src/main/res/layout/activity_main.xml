@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.demo.MainActivity">
+
+<!--    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />-->
+
+    <TextView
+        android:visibility="visible"
+        android:onClick="write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="写" />
+
+    <TextView
+        android:visibility="visible"
+        android:onClick="read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="读" />
+
+    <TextView
+        android:visibility="visible"
+        android:onClick="readWithBiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="读表格" />
+    <TextView
+        android:visibility="visible"
+        android:onClick="readWithZM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读zmail日程邮件"
+        android:gravity="center"
+        android:padding="8dp"/>
+    <TextView
+        android:visibility="visible"
+        android:onClick="readCalendarBreakAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="读zmail邮件(BreakAll)" />
+    <TextView
+        android:visibility="visible"
+        android:onClick="readCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="读zmail邮件(BreakWord)" />
+    <TextView
+        android:visibility="visible"
+        android:onClick="calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="日历" />
+</LinearLayout>

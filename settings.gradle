@@ -1,0 +1,6 @@
+include ':app', ':testnestedscrollview', ':testnestedscrollin', ':testnestedviewwithlistview'
+include ':testcustomview'
+include ':testsystemalarm'
+include ':testdesignpattern'
+include ':javalib'
+include ':appWebView'
